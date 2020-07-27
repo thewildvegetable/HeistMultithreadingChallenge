@@ -13,7 +13,7 @@ namespace WhereDidItGo
         public Lockpicks()
         {
             //initialize available lockpicks
-            this.lockpicks = new bool[] { false, false, false, false, false };
+            this.lockpicks = new bool[] { false, false, false, false, false };      //false = lockpick is not in use, true = lockpick is in use
         }
 
         //grab 2 nearest lockpicks

@@ -35,7 +35,7 @@ namespace WhereDidItGo
             }
 
             //display that this Thief has picked the required amount of locks
-            Console.WriteLine("Thief " + this._index + " has finished picking locks");
+            Console.WriteLine("Thief " + (this._index + 1) + " has finished picking locks");
         }
     }
 }
