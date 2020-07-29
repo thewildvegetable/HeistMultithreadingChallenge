@@ -30,7 +30,9 @@ namespace WhereDidItGo
             //start the heist
             while (this.pickedLocks < this.totalLocks)
             {
-                //fill in the code to actually pick the locks and perform the heist here
+                //fill in the code to actually pick the locks and perform the heist here. 
+                //When the Thief is picking the lock please add the following line
+                //Console.WriteLine("Thief " + (this._index + 1) + " is picking locks");
 
             }
 
