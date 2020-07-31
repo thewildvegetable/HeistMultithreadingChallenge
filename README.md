@@ -4,6 +4,8 @@ Your mission is to aid our elite crew of thieves in breaking into the vault of t
 
 You should use Visual Studio to solve this problem, however if you would like to do this problem in a different programming language please note in your submission what language you used and a link to a free ide I can download and run your submission from. When the heist is begun, you should see messages in the console window saying which thief is picking locks as well as eventually seeing a message saying that a thief has finished picking locks after they finish picking the required number of locks. These messages should all appear independently of each other (ie. "Thief 1 is picking locks. Thief 4 is picking locks. Thief 2 is picking locks. ... Thief 1 is finished picking locks. Thief 4 is picking locks." and not "Thief 1 is picking locks" x10 followed by "Thief 1 is finished picking locks. Thief 2 is picking locks....").
 
+You only need to edit thief.cs and lockpicks.cs, do not edit program.cs
+
 Feel free to reach out to Jeffrey Karger if you have any questions or issues.
 
 Getting Started:
