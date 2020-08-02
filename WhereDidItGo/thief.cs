@@ -31,9 +31,21 @@ namespace WhereDidItGo
             while (this.pickedLocks < this.totalLocks)
             {
                 //fill in the code to actually pick the locks and perform the heist here. 
-                //When the Thief is picking the lock please add the following line
-                //Console.WriteLine("Thief " + (this._index + 1) + " is picking locks");
+                int leftVar = 0;
+                int rightVar = 0;
+                if (this._index - 1 < 0)
+                {
+                    leftVar = 4;
+                }
+                rightVar = this._index;
 
+                lockpicks.Get(leftVar, rightVar);
+                //When the Thief is picking the lock please add the following line
+                Console.WriteLine("Thief " + (this._index + 1) + " is picking locks");
+                Thread.Sleep(500);
+                lockpicks.Put(leftVar, rightVar);
+                Thread.Sleep(500);
+                this.pickedLocks++;
             }
 
             //display that this Thief has picked the required amount of locks
