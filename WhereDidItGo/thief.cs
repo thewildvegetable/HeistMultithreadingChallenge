@@ -34,31 +34,23 @@ namespace WhereDidItGo
                 //When the Thief is picking the lock please add the following line
                 //Console.WriteLine("Thief " + (this._index + 1) + " is picking locks");
 
-                if (this._index == 0)
+                if (this._index == 4)
                 {
-                    this.lockpicks.Get(4, 1);
-                }
-                else if (this._index == 4)
-                {
-                    this.lockpicks.Get(3, 0);
+                    this.lockpicks.Get(this._index, 0);
                 }
                 else
                 {
-                    this.lockpicks.Get(this._index - 1, this._index + 1);
+                    this.lockpicks.Get(this._index, this._index + 1);
                 }
                 heldLockpicks = 2;
                 Console.WriteLine("Thief " + (this._index + 1) + " is picking locks");
-                if (this._index == 0)
+                if (this._index == 4)
                 {
-                    this.lockpicks.Put(4, 1);
-                }
-                else if (this._index == 4)
-                {
-                    this.lockpicks.Put(3, 0);
+                    this.lockpicks.Put(this._index, 0);
                 }
                 else
                 {
-                    this.lockpicks.Put(this._index - 1, this._index + 1);
+                    this.lockpicks.Put(this._index, this._index + 1);
                 }
                 heldLockpicks = 0;
                 this.pickedLocks += 1;
