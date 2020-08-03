@@ -34,6 +34,27 @@ namespace WhereDidItGo
                 //When the Thief is picking the lock please add the following line
                 //Console.WriteLine("Thief " + (this._index + 1) + " is picking locks");
 
+                //Using index find two closest locks.
+                int left = 0;
+                int right = 0;
+
+                //Automated assuming _index is between [0, lockpicks.Length)
+                if(_index == lockpicks.lockpicks.Length-1)
+                {
+                    right = _index;
+                    left = _index - 1;
+                }
+                else
+                {
+                    left = _index;
+                    right = _index + 1;
+                }
+
+                lockpicks.Get(left, right);
+                Console.WriteLine("Thief " + (this._index + 1) + " is picking locks"); //Pick the lock
+                Thread.Sleep(100); //Gives me time to read the console. 
+                lockpicks.Put(left, right);
+                pickedLocks++;
             }
 
             //display that this Thief has picked the required amount of locks
