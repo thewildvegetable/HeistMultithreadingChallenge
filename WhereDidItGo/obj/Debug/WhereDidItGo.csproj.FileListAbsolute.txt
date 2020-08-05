@@ -1,3 +1,10 @@
-C:\Users\Jeffrey\Documents\Visual Studio 2015\Projects\HeistMultithreadingChallenge\WhereDidItGo\bin\Debug\ConsoleApplication1.exe.config
-C:\Users\Jeffrey\Documents\Visual Studio 2015\Projects\HeistMultithreadingChallenge\WhereDidItGo\obj\Debug\ConsoleApplication1.exe
-C:\Users\Jeffrey\Documents\Visual Studio 2015\Projects\HeistMultithreadingChallenge\WhereDidItGo\obj\Debug\ConsoleApplication1.pdb
+C:/Users/Jeffrey/Documents/Visual Studio 2015/Projects/HeistMultithreadingChallenge/WhereDidItGo/bin/Debug/ConsoleApplication1.exe.config
+C:/Users/Jeffrey/Documents/Visual Studio 2015/Projects/HeistMultithreadingChallenge/WhereDidItGo/obj/Debug/ConsoleApplication1.exe
+C:/Users/Jeffrey/Documents/Visual Studio 2015/Projects/HeistMultithreadingChallenge/WhereDidItGo/obj/Debug/ConsoleApplication1.pdb
+/Users/austinhwa/Documents/MandT/HeistMultithreadingChallenge/WhereDidItGo/bin/Debug/ConsoleApplication1.exe.config
+/Users/austinhwa/Documents/MandT/HeistMultithreadingChallenge/WhereDidItGo/bin/Debug/ConsoleApplication1.exe
+/Users/austinhwa/Documents/MandT/HeistMultithreadingChallenge/WhereDidItGo/bin/Debug/ConsoleApplication1.pdb
+/Users/austinhwa/Documents/MandT/HeistMultithreadingChallenge/WhereDidItGo/obj/Debug/WhereDidItGo.csprojAssemblyReference.cache
+/Users/austinhwa/Documents/MandT/HeistMultithreadingChallenge/WhereDidItGo/obj/Debug/WhereDidItGo.csproj.CoreCompileInputs.cache
+/Users/austinhwa/Documents/MandT/HeistMultithreadingChallenge/WhereDidItGo/obj/Debug/ConsoleApplication1.exe
+/Users/austinhwa/Documents/MandT/HeistMultithreadingChallenge/WhereDidItGo/obj/Debug/ConsoleApplication1.pdb
