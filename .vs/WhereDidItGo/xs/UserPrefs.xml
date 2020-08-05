@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{0443F6DA-DE1D-4E45-B4BE-B526DDF99925}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="WhereDidItGo/lockpicks.cs">
+    <Files>
+      <File FileName="WhereDidItGo/thief.cs" Line="46" Column="17" />
+      <File FileName="WhereDidItGo/lockpicks.cs" Line="26" Column="33" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="WhereDidItGo" expanded="True">
+            <Node name="WhereDidItGo" expanded="True">
+              <Node name="lockpicks.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.WhereDidItGo PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
