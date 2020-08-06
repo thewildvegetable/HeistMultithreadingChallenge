@@ -1,3 +1,9 @@
 C:\Users\Jeffrey\Documents\Visual Studio 2015\Projects\HeistMultithreadingChallenge\WhereDidItGo\bin\Debug\ConsoleApplication1.exe.config
 C:\Users\Jeffrey\Documents\Visual Studio 2015\Projects\HeistMultithreadingChallenge\WhereDidItGo\obj\Debug\ConsoleApplication1.exe
 C:\Users\Jeffrey\Documents\Visual Studio 2015\Projects\HeistMultithreadingChallenge\WhereDidItGo\obj\Debug\ConsoleApplication1.pdb
+C:\Users\Alex\Desktop\Multithread Heist\HeistMultithreadingChallenge\WhereDidItGo\bin\Debug\ConsoleApplication1.exe.config
+C:\Users\Alex\Desktop\Multithread Heist\HeistMultithreadingChallenge\WhereDidItGo\bin\Debug\ConsoleApplication1.exe
+C:\Users\Alex\Desktop\Multithread Heist\HeistMultithreadingChallenge\WhereDidItGo\bin\Debug\ConsoleApplication1.pdb
+C:\Users\Alex\Desktop\Multithread Heist\HeistMultithreadingChallenge\WhereDidItGo\obj\Debug\WhereDidItGo.csprojAssemblyReference.cache
+C:\Users\Alex\Desktop\Multithread Heist\HeistMultithreadingChallenge\WhereDidItGo\obj\Debug\ConsoleApplication1.exe
+C:\Users\Alex\Desktop\Multithread Heist\HeistMultithreadingChallenge\WhereDidItGo\obj\Debug\ConsoleApplication1.pdb
