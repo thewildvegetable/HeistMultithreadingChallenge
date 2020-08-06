@@ -19,13 +19,36 @@ namespace WhereDidItGo
         //grab 2 nearest lockpicks
         public void Get(int left, int right)
         {
-            //fill in the code here to pick up the 2 lockpicks next to a thief if they are available. Hint: make sure the variables you are accessing can't be accessed by another thread while you are editing them
+            //lock on array using syncroot to ensure only one thread has access to an array's collection
+            lock (lockpicks.SyncRoot)
+            {
+                if (! (lockpicks[left] && lockpicks[right]) )
+                {
+                    lockpicks[left] = true;
+                    lockpicks[right] = true;
+                    Thread.Sleep(200);
+
+                }
+            }
+
         }
 
         //put down lockpicks
         public void Put(int left, int right)
         {
-            //fill in the code here to put down the 2 lockpicks that were used by a thief so others can use them.  Hint: make sure the variables you are accessing can't be accessed by another thread while you are editing them
+          
+            //lock on array using syncroot to ensure only one thread has access to an array's collection
+            lock (lockpicks.SyncRoot)
+            {
+                if( (lockpicks[left] && lockpicks[right] ) )
+                {
+                    lockpicks[left] = false;
+                    lockpicks[right] = false;
+                    Thread.Sleep(200);
+
+                }
+
+            }
         }
     }
 }
