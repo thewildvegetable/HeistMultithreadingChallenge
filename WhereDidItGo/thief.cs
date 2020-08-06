@@ -28,11 +28,26 @@ namespace WhereDidItGo
         {
             int heldLockpicks = 0;      //lockpicks in hand
             //start the heist
+            int left = this._index;
+            int right = this._index +1;
+            if(this._index == 4){
+                right = 0;
+            }
             while (this.pickedLocks < this.totalLocks)
             {
                 //fill in the code to actually pick the locks and perform the heist here. 
                 //When the Thief is picking the lock please add the following line
                 //Console.WriteLine("Thief " + (this._index + 1) + " is picking locks");
+                if (heldLockpicks == 0){
+                    lockpicks.Get(left,right);
+                    heldLockpicks = 2;
+                }
+                if(heldLockpicks == 2){
+                    Console.WriteLine("Thief " + (this._index + 1) + " is picking locks");
+                    lockpicks.Put(left,right);
+                    pickedLocks++;
+                }
+
 
             }
 
